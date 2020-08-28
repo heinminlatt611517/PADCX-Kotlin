@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
         println("$value :"+checkBalancedParentesis(value))
     }while (checkBalancedParentesis(value)?.equals("Not Balanced")!!)
 }
-
+//check
 fun checkBalancedParentesis(expr: String): String? {
     if (expr.isEmpty()) return "Balanced"
     val stack = Stack<Char>()
